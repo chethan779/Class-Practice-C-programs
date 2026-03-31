@@ -1,0 +1,1 @@
+//  int * x=(int *)malloc(20);
