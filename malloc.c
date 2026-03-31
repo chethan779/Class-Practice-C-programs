@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main(){
+    int num[10],*ptr;
+
+    /*RETURN VALUE OF MALLOC ---> POINTER  TO CALLING FUNC IT RETURNS
+      MALLOC WILL RETURN --> VOID POINTER OR GENERIC POINTER(DEFAULT)
+      IF U WANT OTHER U HV TO TYPECAST 
+      DEFAULT --> VOID MALLOC()  TYPECASTING--> (INT *) MALLOC()*/
+
+    /*MALLOC() IN HEAP MEMORY IF NOT USED SPACE IT WILL HV GARBAGE
+    VALUES AND NOT ZEROS WHERE ARRAY DOES IN STATIC THING
+    
+     MALLOC(10*SIZEOF(INT))*/
+
+     int * x=(int *)malloc(20);
+
+
+
+
+    
+    return 0;
+}
