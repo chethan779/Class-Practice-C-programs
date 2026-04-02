@@ -1,1 +1,2 @@
-//  int * x=(int *)malloc(20);
+            free(x);
+            x=NULL;
