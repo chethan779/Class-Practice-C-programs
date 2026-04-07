@@ -31,7 +31,11 @@ int main(){
         }
 
     int* y;
-    y=(int*)realloc(x,3*sizeof(int));
+    y=(int*)realloc(x,3*sizeof(int));  
+      /*to extend or decrease the size of the previously 
+      allocated memory block but it changes existing pointer
+                                      */
+
 
     if (y==NULL)
         printf("Memory not allocated.\n");

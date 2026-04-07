@@ -15,7 +15,7 @@ int main(){
      int n ; scanf("%d",&n);
      int * x=(int *)malloc(20);
 
-    int * y=(int *)calloc(n,sizeof(int)); 
+    int * y=(int *)calloc(n,sizeof(int)); // calloc initializes the memory to 0
 
     for (int i = 0; i < n; i++)
       scanf("%d",(y+i));
