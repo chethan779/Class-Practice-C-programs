@@ -19,6 +19,5 @@ int main(){
         printf("The total marks of each student is %d",st[i].total);
     }
     
-
     return 0;
 }
