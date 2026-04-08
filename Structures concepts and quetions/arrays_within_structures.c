@@ -4,7 +4,7 @@ struct student
 {
     int marks[3];
     int total;
-}st1[3]={{{98,89,99},0},{{89,87,96},0},{{98,89,95},0}};
+}st1[3]={{{98,89,99},0},{{89,87,96},0},{{98,89,95},0}}; // THIS IS INITIALIZATION OF ARRAY OF STRUCTURES CONTAINING ARRAY OF MEMBERS INSIDE IT
 
 int main(){
     struct student st[3];
