@@ -36,7 +36,7 @@ int main() {
         free(expense);
         return 1;
     }
-    expense = NULL; // ✅ avoid dangling pointer
+    expense = NULL; // avoid dangling pointer
 
     printf("Enter the expenses for the additional %d months:\n", n1 - n); 
     for (int i = n; i < n1; i++) {   
