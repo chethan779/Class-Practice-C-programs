@@ -7,8 +7,6 @@ struct test1
 };
 
 
-
-
 int main(){
 
     printf("%d\n",sizeof(struct test1));
