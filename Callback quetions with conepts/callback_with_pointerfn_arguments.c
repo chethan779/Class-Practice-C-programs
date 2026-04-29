@@ -17,7 +17,7 @@ int (*getoperation(char op))(int,int){
 
 int main()
 {
-    //get the func pointer based on op
+    //get the func pointer based on op 
 
     int (*operation)(int,int)=getoperation('+');
     if (operation) 
@@ -26,4 +26,3 @@ int main()
     printf("Invalid operation\n");
 
 }
-

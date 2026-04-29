@@ -58,7 +58,7 @@ int main()
     int n , i=0;
     scanf("%d", &n);
 
-    while (i<=n)
+    while (i<n)
     {
         new_node = (struct node *)malloc(sizeof(struct node));
         scanf("%d", &new_node->data);

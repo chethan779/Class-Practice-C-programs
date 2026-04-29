@@ -13,7 +13,6 @@ void callback(void (*ptr1)( ),int (*ptr2)(int,int)){
 }
 
 
-
 int sum(int a, int b)
 {
     return a+b;

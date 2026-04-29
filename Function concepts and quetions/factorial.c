@@ -9,8 +9,6 @@ int fact(int n)
 }
 
 
-
-
 int main(){
     int num;
 
