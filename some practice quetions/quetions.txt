@@ -1,0 +1,4 @@
+2)palindrome
+1)W.a.p to read and diaplay 2d array using pointers
+3)struct employee details id , name , expense of 3 items . write to calculate total expense of 3 employees , write a fn total expense pass entire structure s an argument to function
+4)write a program to swap 2 numbers using bitwise operators 

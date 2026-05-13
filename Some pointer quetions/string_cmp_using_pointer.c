@@ -11,8 +11,6 @@ int main(){
     int i=0;
     while (ptr1!="\0")
     {
-    
-    
         if(ptr1==ptr2)
         {   printf("rhuk");
             ptr1++;

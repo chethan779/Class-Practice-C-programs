@@ -1,15 +1,20 @@
 #include<stdio.h>
 
-int main(){
-    int count=0;
-    char str[]="PES UNIVERSITY";
-    char *ptr;
-    ptr=str;
-    while (*ptr!='\0')
+int my_strlen(char* ptr1)
+{
+    int count = 0;
+    while (*ptr1!='\0')
     {
         count++;
-        ptr++;
+        ptr1++;
     }
-    printf("The length of string is %d",count);
+    return count;
+}
+
+
+int main(){
+    char str[]="PES UNIVERSITY";
+    
+    printf("The length of string is %d",my_strlen(str));
     return 0;
 }

@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    char str[100];
+
+    printf("Enter string: ");
+    scanf("%s", str);
+
+    int count = 0;
+
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] >= 'A' && str[i] <= 'Z') {
+            str[i] = str[i] + 32;
+            count++;
+        }
+    }
+
+    str[count];
+
+    printf("Lowercase: %s\n", str);
+
+    return 0;
+}
